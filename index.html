@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MelonDaySF</title>
+    <style>
+      #backgroundImage{z-index: 1;}
+
+      #backgroundImage:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url('Turkmenistan-Melon-Day-Farmers.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        opacity: 0.4;
+        filter:alpha(opacity=40);
+        height:100%;
+        width:100%;
+      }
+
+      .main{
+        height:500px;
+        width:500px;
+        margin:auto;
+        z-index:-1;
+        opacity: 1;
+        filter:alpha(opacity=100);
+        font-family: sans-serif;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="backgroundImage">
+      <div class="main">
+        <h1>Melon Day SF</h1>
+        <p>Melon Day is a national holiday of Turkmenistan celebrating the glorious Turkmen musk melon.</p>
+        <p>It falls on the second Sunday of August and is the cause for much celebration.</p>
+        <p>MelonDaySF is a non-profit organization dedicated to sharing the joy (and fruit) of this tasty holiday in San Francisco.</p>
+        <p>Join us on August 9th, 2020 for our 4th annual celebration of Melons in Dolores Park.</p>
+      </div>
+    </div>
+  </body>
+</html>
